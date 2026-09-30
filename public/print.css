@@ -1,0 +1,3 @@
+@page { size: A4 }
+body { color: #000; background: #fff }
+article { break-inside: avoid }

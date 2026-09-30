@@ -1,0 +1,29 @@
+@theme {
+  --color-background: #0A0A0B;
+  --color-surface: #141416;
+  --color-border: #1F1F23;
+  --color-text-primary: #F5F5F7;
+  --color-text-secondary: #9CA3AF;
+  --color-accent-orange: #FF6B35;
+  --color-accent-cyan: #00D4FF;
+  --color-accent-gold: #C9A84C;
+  --color-accent-navy: #0B1E3A;
+  --color-success: #34D399;
+  --color-error: #F87171;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root{height:100%}
+body{
+  background:var(--color-background);
+  color:var(--color-text-primary);
+  font-family:var(--font-body);
+}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
