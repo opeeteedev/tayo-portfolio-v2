@@ -1,2 +1,11 @@
+.next/
+.next
 node_modules
+
+# Environment files
+.env
+.env.*
 .env.local
+.env.*.local
+
+data/
